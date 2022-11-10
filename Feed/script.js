@@ -12,7 +12,7 @@ function redirecionar() {
   if (email.value == novamente.value && email.value !== ''){
     if (senha.value == senhaNovamente.value && senha.value !== ''){
       alert("Bem Vindo ao BikeSpot");
-      window.location.replace('../feed.html')
+      window.location.replace('../index.html')
       
     }else{
       alert("As senhas não correspondem!")
