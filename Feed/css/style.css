@@ -3,222 +3,66 @@
     src: url(../assets/fonts/Poppins-Light.ttf);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html {
     font-size: 16px;
 }
-
-header {
-    height: 90px;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top:0;
-    z-index: 99;
+h3{
+    color: white;
+    font-weight:bold;
+    font-family:'Poppins';
+    font-size: medium;
 }
 
-.index-header {
-    background-color: #5125adff;
-    display: flex;
-    align-items: center;
+p{
+    color: white;
+    font-family:'Poppins';
 }
 
-.imagem-header {
-    width: 15%;
+h1{
+    color: white;
+    font-weight:bold;
+    font-family:'Poppins';
+    font-size: 150%;
+    font-weight: bolder;
 }
 
-#home {
-    width: 32px;
-}
-
-#bikedesenho {
-    width: 36px;
-}
-
-#exchange {
-    width: 32px;
-}
-
-#comment {
-    width: 34px;
-}
-
-#ranking {
-    width: 34px;
-}
-
-#users {
-    width: 34px;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    list-style: none;
-    padding-right: 50px;
-}
-
-#pesquisa {
-    float: right;
-    margin-top: 110px;
-    margin-right: 50px;
-}
-
-input {
-    border-color: #5125adff;
-    border-radius: 2%;
-    background-color:#eeeeeeff;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
-#display-in-block{
-    display: inline-block;
-}
-
-#feed-de-posts {
-    overflow-y: scroll;
-    overflow: hidden;
-    height: 700px;
-    width: 700px;
-    align-items:vertical;
-    padding-left: 50px;
-    padding-top: 50px;
-    margin-top: 10px;
-    display:block;
-    float: left;
-}
-
-#post1{
-    background-color:#5125adff;
-    display: flex;
-    width: 700px;
-    height: 300px;
-    margin-bottom: 50px;
-    align-items:flex-start;
-    border-radius:1%;
-}
-
-#titulo-eventos {
-    background-color: #4285f4ff;
-    display: flex;
-    flex-grow: 1;
-    position: absolute;
-    width: 700px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.758);
-}
-
-#evento {
-    width: 200px;
-    margin: 50px;
-    display:block;
-    float: left;
-}
-
-#post2{
-    background-color:#5125adff;
-    display: flex;
-    width: 700px;
-    height: 300px;
-    align-items:flex-start;
-    border-radius:1%;
-}
-
-#titulo-market {
-    background-color: #46cc46ff;
-    display: flex;
-    flex-grow: 1;
-    position: absolute;
-    width: 700px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.758);
-}
-
-#market {
-    width: 200px;
-    margin-top: 90px;
-    margin-left: 50px;
-    display:block;
-    float: left;
-}
-
-h2 {
-color: white;
-font-weight:bold;
-font-family:'Poppins';
-margin-left: 4%;
-}
-
-#ranking-feed {
-    height: 600px;
-    width: 500px;
-    align-items:vertical;
-    align-items:center;
-    padding:0;
-    margin-top: 70px;
-    margin-right: 10px;
-    margin-left: 150px;
-    display:block;
-    float: right;
-}
-
-
-#filtro {
-    width: 20%;
-    margin-bottom: 30px;
+h2{
+    color: white;
+    font-weight:bold;
+    font-family:'Poppins';
+    border-radius:1;
 }
 
 #caixa-do-ranking {
     background-color: #5125adff;
-    height: 500px;
-    width: 420px;
     border-radius:1%;
-    padding: 60px;
-}
-
-#ranking-titulo {
-    margin-left: 80px;
-    margin-right: 80px;
-    background-color: #ff9900ff;  
-    padding-left: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius:5%;
+    padding: 40px;
+    display:block;;
 }
 
 .alinhamento-ranking {
-    padding-top: 50px;
     display: inline-block;
     align-items: center;
-    margin-top: 30px;
 }
 
 #imagem-ranking1 {
-    width: 60px;
     margin-left: 30px;
+    margin-top: 20px;
     display:block;
     float: left;
 }
 
 #imagem-ranking2 {
-    width: 60px;
     margin-left: 30px;
+    margin-top: 20px;
     display:block;
     float: left;
     
 }
 
 #imagem-ranking3 {
-    width: 60px;
     margin-left: 30px;
+    margin-top: 20px;
     display:block;
     float: left;
 }
@@ -244,125 +88,12 @@ margin-left: 4%;
     float: right;
 }
 
-
-h3{
-    color: white;
-    font-weight:bold;
-    font-family:'Poppins';
+#post1{
+    background-color:#5125adff;
+    border-radius:1;
 }
 
-p{
-    color: white;
-    font-weight:bold;
-    font-family:'Poppins';
+#post2{
+    background-color:#5125adff;
+    border-radius:1%;
 }
-
-h1{
-    color: white;
-    font-weight:bold;
-    font-family:'Poppins';
-    font-size: 150%;
-    font-weight: bolder;
-}
-
-
-#info-evento{
-    float: right;
-    z-index: 80;
-    position: relative;
-    display:block;
-    margin-left: 50px;
-    margin-top: 100px;
-
-}
-
-#info-venda{
-    float: right;
-    z-index: 80;
-    position: relative;
-    display:block;
-    margin-left: 100px;
-    margin-top: 100px;
-
-}
-
-#like1{
-    width: 27px;
-    margin-left: 50px;
-    float: right;
-    z-index: 80;
-    position: relative;
-    margin-top: 40px;
-    margin-right: 110px;
-}
-
-#comment1{
-    width: 25px;
-    margin-left: 50px;
-    float: right;
-    z-index: 80;
-    position: relative;
-    margin-top: 42px;
-}
-
-#share1{
-    width: 30px;
-    margin-left: 50px;
-    float: right;
-    z-index: 80;
-    position: relative;
-    margin-top: 37px;
-}
-
-#like2{
-    width: 27px;
-    margin-left: 50px;
-    float: right;
-    z-index: 80;
-    position: relative;
-    margin-top: 40px;
-    margin-right: 110px;
-}
-
-#comment2{
-    width: 25px;
-    margin-left: 50px;
-    float: right;
-    z-index: 80;
-    position: relative;
-    margin-top: 42px;
-}
-
-#share2{
-    width: 30px;
-    margin-left: 50px;
-    float: right;
-    z-index: 80;
-    position: relative;
-    margin-top: 37px;
-}
-
-#feed-display-inline-block1{
-    display: inline-block;
-}
-
-#feed-display-inline-block2{
-    display: inline-block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
