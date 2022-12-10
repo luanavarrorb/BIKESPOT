@@ -12,6 +12,13 @@ body{
   border: 2px solid #5125adff;
 }
 
+@media screen and (max-width:520px) {
+  body{
+    width: 375px;
+  }
+  
+}
+
 .header-logo{
   display: flex;
   align-items: center;
@@ -21,22 +28,34 @@ body{
   background-color:#5125adff ;
 }
 
-header img{
-  width: 15%;
-  padding: 4px;
+
+.header-image{
+  width: 10vw;
+  padding: 5px;
   
 }
 .input-login{
 
   padding-left: 10px;
   font-family: 'Poppins', sans-serif;
-  width: 200px;
-  height: 35px;
+  width: 9vw;
+  height: 4vh;
   margin-left: 5px;
-  padding-right: 20px;
+  padding-right: 2vw;
   border: 1px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
   outline: none;
+  
+  
+}
+
+.input-login:focus{
+  border: 2px solid #ff9900ff;
+  font-size: 16px;
+  
+}
+.span-account{
+  color: white;
   
 }
 .btn-header{
@@ -54,14 +73,19 @@ header img{
   background-color: rgb(255, 187, 86);
 }
 h1{
-  font-size: 24px;
+  font-size: 4rem;
   font-weight: bolder;
   font-family: 'Poppins', sans-serif;
   color:#5125adff;
+  transition: 1.5s;
 }
-.h1-form{
+h1:hover{
+  color: #ff9900ff;
+}
 
-}
+
+
+
 .line{
   margin-left: -10px;
   border: 1px solid #5125adff;
@@ -71,11 +95,11 @@ h1{
 
 
 
+
 .div-all{
   height: 87vh;
   display: flex;
-  justify-content: flex-start;
-  margin-left: 25%;
+  margin-left: 22%;
   
 }
 
@@ -94,6 +118,11 @@ justify-content: center;
 
 width: 100%;
 }
+@media screen {
+  .div-image img{
+    min-width: 375px;
+  }
+}
 
 
 .alinhamento{
@@ -104,8 +133,8 @@ width: 100%;
   padding-bottom: 2px;
 }
 .input-formulario{
-  width: 350px;
-  padding: 4px;
+  width: 100%;
+  padding: 0.3em;
   background-color: rgb(241, 241, 241);
   border: 1px solid #5125adff;
   border-radius: 1px;
@@ -114,11 +143,39 @@ width: 100%;
   box-sizing: border-box;
   box-shadow: 0px 0px 0px 0px #5125adff;
   
+  
+}
+.input-formulario:focus{
+  border: 1px solid #ff9900ff;
+}
+@media screen and (max-width:1199px) {
+  .input-formulario{
+   width: 350px;
+   
+  }
+  .header-logo{
+    width: 200vw;
+  }
+  
+  body{
+    border: none;
+  }
+  .div-all{
+    flex-direction: column;
+    order: inherit;
+    min-width: 545px;
+    margin-bottom: 30vh;
+  }
+  .div-form{
+    display: flex;
+  }
+  
 }
 .div-form{
   margin-top: 2%;
   padding: 10px;
 }
+
 
 .input-label{
   display: flex;
