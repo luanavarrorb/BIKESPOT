@@ -32,7 +32,7 @@ main{
 }
 
 body{
-    background-color: #5125adff;
+    background-color: black;
     height: 100vh;
     width: 100vw;
 }
@@ -53,7 +53,7 @@ body{
 
 #entrar {
     font-family: 'Poppins', sans-serif;
-    background-color: #5125adff;
+    background-color: black;
     font-weight: bold;
     font-size: 15px;
     color: white;
@@ -61,25 +61,27 @@ body{
     margin-bottom: 15px;
     height: 30px;
     width: 210px;
+    cursor:pointer;
 }
 
 #novaconta {
     margin-top: 2%;
-    background-color: #ff9900ff;
+    background-color: black;
     font-size: 15px;
     color: white;
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: bold;
+    cursor:pointer;
 }
 a{
     margin-bottom: 2px;
     text-decoration: none;
     color: black;
     padding-bottom: 10px;
-    border-bottom: 1px solid #5125adff;
     font-size: small;
     font-family: 'Poppins', sans-serif;
+    cursor:pointer;
 }
 .link{
     display: flex;
@@ -89,7 +91,7 @@ a{
 #email{
     margin-top: 15px;
     margin-bottom: 15px;
-    border-color: #5125adff;
+    border-color: black;
     height: 30px;
     padding: 5px;
     width: 200px;
@@ -100,7 +102,7 @@ a{
 #senha{
     font-weight: bold;
     color: black;
-    border-color: #5125adff;
+    border-color: black;
     padding: 5px;
     height: 30px;
     width: 200px;
@@ -112,6 +114,7 @@ a{
     height: 30px;
     width: 210px;
 }
+
 
 @media(max-width: 1000px){
     main{

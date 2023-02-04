@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,22 +11,30 @@
     <main>
       <section class="card">
         <div class="imagem">
-            <img src="css/img/IMG.jpeg" alt="logo da BikeSpot" height="80" width="500">
+            <img src="css/img/Logo Mentor fundo preto.png" alt="logo Mentor" height="80" width="200">
             <div class="frase">
-            <p>Conectando pessoas apaixonadas por Bike</p>
+            <p>Os melhores mentores estão aqui</p>
             </div>
         </div>
 
         <div class="card-login">
-            <input type="text" placeholder="E-mail" id="email">
-            <input type="pasaword" placeholder="Senha" id="senha">
-            <input type="button" value="Entrar" id="entrar">
+            <input type="email" placeholder="E-mail" id="email">
+            <input type="password" placeholder="Senha" id="senha">
+            <a href="../Cadastro/cadastro.html"><input type="button" value="Entrar" id="entrar"></a>
             <div class="link">
-            <a href="http://">Esqueceu a senha?</a>
+            <a href="../Cadastro/cadastro.html">Esqueceu a senha?</a>
             </div>
-            <a href="../feed/cadastro/cadastro.html"><input type="button"  value="Criar nova conta" id="novaconta"></a>
+            <a href="../Cadastro/cadastro.html"><input type="button"  value="Criar nova conta" id="novaconta"></a>
         </div>
       </section>
     </main>
+
+    <script src="../script.js"></script>
+    <script src="api.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
